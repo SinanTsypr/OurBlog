@@ -1,0 +1,8 @@
+﻿@model Post
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.PostTitle = Model.Title;
+    ViewBag.Image = Model.Image;
+}
+
+@Html.Raw(Model.Content)
